@@ -4,14 +4,16 @@ import './Component/App.css';
 import NavbarPage from "./Component/Navigation";
 import FormPage from "./Component/EmailForm";
 
-function App() {
-  return (
-    <div className="App">
-      <NavbarPage />
-        <br/>
-      <FormPage/>
-    </div>
-  );
+class App extends React.Component {
+  render(){
+    return (
+      <div className="App">
+        <NavbarPage />
+          <br/>
+        <FormPage/>
+      </div>
+    );
+  }
 }
 
 export default App;
