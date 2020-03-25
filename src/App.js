@@ -7,7 +7,7 @@ import FormPage from "./Component/EmailForm";
 class App extends React.Component {
   render(){
     return (
-      <div className="App">
+      <div>
         <NavbarPage />
           <br/>
         <FormPage/>
